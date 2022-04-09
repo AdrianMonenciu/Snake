@@ -61,10 +61,10 @@ function handleFieldReset() {
 
 function handleGameEnd() {
   ctx.fillStyle = '#e8dbb0';
-    ctx.font = '30px Monospace';
-    ctx.textAlign = 'center';
-    ctx.fillText('Game Over - Score: '+score, SIZE / 2, SIZE / 2);
-    ctx.fillText('SPACE to continue', SIZE / 2, 300);
+  ctx.font = '30px Monospace';
+  ctx.textAlign = 'center';
+  ctx.fillText('Game Over - Score: '+score, SIZE / 2, SIZE / 2);
+  ctx.fillText('SPACE to continue', SIZE / 2, 300);
 }
 
 function handleScoreUpdate() {
