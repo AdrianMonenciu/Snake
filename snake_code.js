@@ -16,7 +16,7 @@ function updateSnakeGame() {
   if (collisionCheck()) {
     gameEndUpdate();
     if(newDirection == 5){
-    location.reload(); 
+      location.reload(); 
     }
   } else {
     gameFieldReset();
